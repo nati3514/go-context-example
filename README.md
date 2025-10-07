@@ -62,3 +62,11 @@ When the request succeeds (if you reduce the minDuration to less than 2s):
 2023/10/07 12:30:00 Fetching todo with ID 1...
 2023/10/07 12:30:01 Successfully fetched todo: &{UserID:1 ID:1 Title:delectus aut autem Completed:false}
 ```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
