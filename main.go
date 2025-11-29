@@ -98,6 +98,7 @@ func simulateSlowRequest(ctx context.Context, todoID int, minDuration time.Durat
 		if todo == nil {
 			return nil, fmt.Errorf("received nil todo")
 		}
+		
 		return todo, nil
 	case err := <-errChan:
 		return nil, err
