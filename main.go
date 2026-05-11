@@ -23,6 +23,7 @@ type Todo struct {
 
 // fetchTodoWithErrorChan makes an HTTP GET request and sends results/errors through channels
 func fetchTodoWithErrorChan(ctx context.Context, todoID int) (<-chan *Todo, <-chan error) {
+	
 	// Create buffered channels
 	todoChan := make(chan *Todo, 1)
 	errChan := make(chan error, 1)
